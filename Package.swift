@@ -17,10 +17,9 @@ let package = Package(
     ],
     targets: [
         .target(
-          name: "Shared",
-          resources: [
-            .copy("Resources/Image.xcassets")
-          ]
-        )
+            name: "Shared",
+            dependencies: [],
+             resources: []),
+        
     ]
 )
